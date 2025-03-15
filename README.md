@@ -46,8 +46,5 @@ Le site web est composé de trois pages principales :
 - **Eric Se**
 - **Stéphane Gadewa**
 
-## Encadrant
-- **M. Hellouin De Menibus**
-
 ---
 *Projet réalisé dans le cadre du cours CWAC, Groupe 1J.*
