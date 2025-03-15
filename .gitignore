@@ -1,1 +1,13 @@
-.DS_Store
+# Ignorer les fichiers de configuration spécifiques
+*.replit
+*.breakpoints
+*.formation.html.*
+*.index.html.*
+
+# Ignorer les dossiers de configuration et de cache
+.config/
+.upm/
+node_modules/
+
+# Ignorer les fichiers de sauvegarde temporaires
+*.~*
