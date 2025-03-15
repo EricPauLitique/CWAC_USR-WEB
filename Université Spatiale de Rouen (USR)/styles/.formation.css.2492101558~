@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+@media screen and (min-width: 450px) and (max-width: 1080px) {
+  article {
+    padding: 1rem 3rem;
+  }
+}
+
+html {
+  background-image: url("../images/Station_spatiale_SpaceX_Starship.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #262626;
+  color: white;
+}
+
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+nav {
+  display: inline-block;
+  background-size: cover;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section{
+  padding-bottom: 1.25rem;
+}
+
+.principale {
+  gap: 10px;
+  /* Espacement entre les images */
+  justify-content: space-between;
+  /* Répartition de la place disponible sur chaque ligne */
+  margin: 10px 0;
+  /* Marges haut et bas de l'album */
+
+  background-color: rgba(109, 123, 158, 0.6);
+  padding: 20px;
+  /* Espacement intérieur de l'album */
+  border: 1px solid #333;
+  /* Bordure de l'album */
+  border-radius: 10px;
+}
+
+header nav {
+  /* On veut que le header soit aligner en haut de page */
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  margin-right: 10px;
+
+  background-size: cover;
+
+}
+
+nav a {
+  margin-right: 30px;
+  /* Ajoute une marge à droite pour chaque élément d'ancrage */
+}
+
+.tete {
+  background-color: #6D7B9E;
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+
+.Univ {
+  text-decoration: none;
+
+}
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.Fillière h2 {
+  color : black;
+  text-decoration: none;
+}
+
+h3 {
+  color: black;
+}
+
+.Astronaute {
+  display: flex;
+  justify-content: left;
+  padding: 2rem;
+}
+
+.Astronaute h2 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.Astronaute p {
+  font-family: Segoe UI;
+  font-size: 1rem;
+  text-align: left;
+  margin: 3%;
+  margin-top: 5%;
+}
+
+.Technicien {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.Technicien h2 {
+  text-align: right;
+  font-weight: bold;
+}
+
+.Technicien p {
+  font-family: Segoe UI;
+  font-size: 1rem;
+  text-align: left;
+  margin: 3%;
+  margin-top: 5%;
+}
+
+.Ingénieur {
+  display: flex;
+  justify-content: left;
+  padding-left: 2rem
+}
+
+.Ingénieur h2 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.Ingénieur p {
+  font-family: Segoe UI;
+  font-size: 1rem;
+  text-align: left;
+  margin: 3%;
+  margin-top: 5%;
+}
+
+
+.Contrôleur {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.Contrôleur h2 {
+  text-align: right;
+  font-weight: bold;
+}
+
+.Contrôleur p {
+  font-family: Segoe UI;
+  font-size: 1rem;
+  text-align: left;
+  margin: 3%;
+  margin-top: 5%;
+}
+
+.prérequis {
+  display: flex;
+  justify-content: left;
+  padding-left: 2rem;
+}
+
+.prérequis h2 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.prérequis p {
+  font-family: Segoe UI;
+  font-size: 1rem;
+  text-align: left;
+  margin: 3%;
+  margin-top: 5%;
+}
+
+
+.info h2 {
+  color: #F52F2F;
+}
+
+footer {
+  background-color: #6D7B9E;
+  color: white;
+  text-align: center;
+
+}

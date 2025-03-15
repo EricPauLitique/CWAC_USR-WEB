@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* font-weight : bold // Mettre un texte en gras */
+
+
+html { /* Mettre l'image en arriere plan et les textes sont en blanc pour assurer la visibilté de la page  */
+  background-image: url("../images/xl_astronaute_espace.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #262626;
+  color: white;
+
+}
+
+
+
+
+  
+nav {
+  text-align: center;
+  font-size: 3rem;
+  display: inline-block;
+  background-size: cover;
+
+}
+
+
+
+nav a:hover {
+  /* En allant sur le curseur droit du texte, il soulignera jusqu'à que vous le pointez plus du texte */
+
+  
+  text-decoration: underline; 
+
+}
+
+
+
+div {
+  display: block;
+  
+}
+
+
+.tete {
+  background-color: #887D93;
+  display: flex;
+  /* Flex permet de coller l'image du texte */
+  height: 150px;
+  align-items: center;
+  /* Nous aurons besoin de center les 3 attribut pour bien les aligners */
+  align-items: center;
+  /* Nous aurons besoin de center les 3 attribut pour bien les aligners */
+  justify-content: space-around;
+  font-weight: bold;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+
+
+
+.univ {
+  text-decoration: none; 
+}
+
+h1{ /* H1 est souligné et aligners aux centre */
+  text-decoration: underline; 
+  text-align: center;
+}
+
+
+header nav { /* On veut que le header soit aligner en haut de page */
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  margin-right: 10px;
+  
+  background-size: cover;
+  
+}
+
+nav a {
+    margin-right: 30px; /* Ajoute une marge à droite pour chaque élément d'ancrage */
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.photos {
+ display: flex;
+  justify-content: center; /* Aligner les images au centre */
+  gap: 300px; /* Espacement entre les images */
+  margin: 10px 0; /* Marges haut et bas de l'album */
+  background-color: rgba(135, 125, 147, 0.75);
+  padding: 20px; /* Espacement intérieur de l'album */
+  border: 1px solid #ffffff; /* Bordure de l'album */
+  border-radius: 10px;
+}
+
+
+.photos {
+  justify-content: flex-start; /* Aligner le texte à gauche */
+  align-items: flex-start; /* Aligner le texte en haut */
+}
+  
+
+.Thomas {
+  text-decoration: underline;
+  text-align: left;
+  
+}
+
+aside h2 {
+  text-shadow: 1px 1px 2px #4B4B4B;
+}
+
+aside {
+    border: 2px solid white;
+    margin: 1rem;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 20px; /* Add a gap between flex items */
+  background-color: rgba(135, 125, 147, 0.75);
+}
+
+
+footer {
+  
+  background-color :#887D93;
+  color: white;
+  text-align: center;
+
+}
+
+
+address a:hover {
+/* Même principe que pour nav a */
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+
+aside img {
+  width : 200px;
+  height : auto;
+}
